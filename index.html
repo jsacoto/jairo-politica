@@ -16,17 +16,17 @@ section{padding:76px 0}.alt{background:var(--suave)}.head{display:grid;grid-temp
 .sport{display:grid;grid-template-columns:.92fr 1.08fr;gap:22px}.sport-hero{background:linear-gradient(135deg,#fff0f3,#fff8ee);border:1px solid #ffd9df;border-radius:25px;padding:28px}.sport-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.sport-item{background:#fff;border:1px solid var(--borde);border-radius:18px;padding:18px}.sport-item b{display:block;color:var(--azul2);margin-bottom:5px}.role{margin-top:22px;background:#0d2b4d;color:#fff;border-radius:24px;padding:27px}.role-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-top:16px}.role-card{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:15px}.role-card b{display:block;color:#bfefff;margin-bottom:4px}
 .edu{display:grid;grid-template-columns:.84fr 1.16fr;gap:20px}.edu-hero{background:linear-gradient(145deg,var(--celeste),var(--azul2));color:#fff;border-radius:25px;padding:29px}.edu-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.mini{padding:18px;border:1px solid var(--borde);border-radius:17px;background:#fff}.mini b{display:block;color:var(--azul2);margin-bottom:5px}
 .fiscal{display:grid;grid-template-columns:1fr 1fr;gap:20px}.checks{list-style:none;padding:0}.checks li{padding:10px 0 10px 30px;border-bottom:1px solid #eaf0f5;position:relative;color:#566a82}.checks li:before{content:"✓";position:absolute;left:0;top:10px;color:var(--verde);font-weight:950}
-.network{text-align:center}.network .social{justify-content:center;margin-top:18px}.network .social a{height:auto;padding:13px 18px;display:inline-flex;gap:8px}
+.areas-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.area-card{background:#fff;border:1px solid var(--borde);border-radius:24px;padding:24px;box-shadow:0 10px 28px rgba(20,42,74,.06)}.area-card h3{margin:10px 0 8px;color:var(--azul2);font-size:1.25rem}.area-card p{color:var(--gris);margin:0 0 14px}.legal-badge{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;font-size:.72rem;font-weight:950;text-transform:uppercase;letter-spacing:.04em}.badge-reform{background:#eef6ff;color:#175c9c}.badge-new{background:#fff0f2;color:#b91532}.badge-manage{background:#eefaf3;color:#147443}.proposal-list{display:grid;gap:10px;margin-top:14px}.proposal-row{padding:14px;border:1px solid #e7edf4;border-radius:16px;background:#fbfdff}.proposal-row b{display:block;color:#24486c;margin-bottom:5px}.proposal-row small{display:block;color:#6c7c90;line-height:1.45}.legal-note{margin-top:20px;background:#fff8e8;border:1px solid #f0dfad;border-radius:18px;padding:16px 18px;color:#6c5720}.network{text-align:center}.network .social{justify-content:center;margin-top:18px}.network .social a{height:auto;padding:13px 18px;display:inline-flex;gap:8px}
 footer{background:#091a2d;color:#b8c7d8;padding:25px 0;font-size:.86rem}
-@media(max-width:940px){.hero-grid,.head,.sport,.edu,.fiscal{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}.role-grid{grid-template-columns:repeat(2,1fr)}.timeline{grid-template-columns:repeat(2,1fr)}.timeline:before{display:none}.links{display:none}}
-@media(max-width:620px){.wrap{width:calc(100% - 20px)}section{padding:60px 0}.hero-grid{padding:48px 0 35px}.cards,.sport-grid,.edu-grid,.role-grid,.timeline{grid-template-columns:1fr}h1{font-size:clamp(2.7rem,16vw,4.2rem)}}
+@media(max-width:940px){.hero-grid,.head,.sport,.edu,.fiscal{grid-template-columns:1fr}.cards,.areas-grid{grid-template-columns:repeat(2,1fr)}.role-grid{grid-template-columns:repeat(2,1fr)}.timeline{grid-template-columns:repeat(2,1fr)}.timeline:before{display:none}.links{display:none}}
+@media(max-width:620px){.wrap{width:calc(100% - 20px)}section{padding:60px 0}.hero-grid{padding:48px 0 35px}.cards,.areas-grid,.sport-grid,.edu-grid,.role-grid,.timeline{grid-template-columns:1fr}h1{font-size:clamp(2.7rem,16vw,4.2rem)}}
 </style>
 </head>
 <body>
 <div class="top">Plan legislativo y de fiscalización para Azogues</div>
 <nav><div class="wrap">
 <a class="brand" href="#inicio"><span class="mark">JS</span><span>Jairo Sacoto<br><small style="color:#61758b">Propuestas para Azogues</small></span></a>
-<div class="links"><a href="#propuestas">Propuestas</a><a href="#deporte">Deporte</a><a href="#educacion">Educación</a><a href="#fiscalizacion">Fiscalización</a></div>
+<div class="links"><a href="#ordenanzas">Ordenanzas</a><a href="#propuestas">Propuestas</a><a href="#deporte">Deporte</a><a href="#fiscalizacion">Fiscalización</a></div>
 <div class="social">
 <a class="fb" href="https://www.facebook.com/jsacoto66" target="_blank" rel="noopener">f</a>
 <a class="ig" href="https://www.instagram.com/jsacoto?vrfl=MWtweXZzZnIzdG9keQ%3D%3D&utm_source=qr" target="_blank" rel="noopener">IG</a>
@@ -60,6 +60,72 @@ footer{background:#091a2d;color:#b8c7d8;padding:25px 0;font-size:.86rem}
 <div class="timeline-step"><div class="timeline-icon">🚀</div><span class="timeline-phase">FASE 4</span><h3>Evaluar y expandir</h3><p>Medir impacto, realizar mejoras y extender gradualmente las soluciones que demuestren resultados positivos.</p></div>
 </div>
 <div class="timeline-claim">Primero planificar. Luego probar. Después capacitar. Finalmente crecer.</div>
+</div></section>
+
+<section id="ordenanzas" class="alt"><div class="wrap">
+<div class="head"><div><span class="kick">Agenda legislativa</span><h2>5 grandes áreas de ordenanzas para Azogues</h2></div><p>La propuesta distingue qué iniciativas requieren reformar normativa municipal vigente, cuáles justifican una nueva ordenanza y cuáles pueden implementarse mediante convenios, resoluciones o regulación administrativa.</p></div>
+
+<div class="areas-grid">
+<article class="area-card">
+<span class="tag">Área 1</span>
+<h3>Territorio y construcción</h3>
+<span class="legal-badge badge-reform">Reforma de ordenanzas vigentes</span>
+<p>Actualizar la normativa urbanística y constructiva para incorporar infraestructura moderna y criterios de ciudad conectada.</p>
+<div class="proposal-list">
+<div class="proposal-row"><b>Edificaciones preparadas para servicios modernos</b><small>Incorporar ductos y espacios técnicos para telecomunicaciones, agua, servicios centralizados y futuras ampliaciones. Ruta normativa: reformar o complementar disposiciones del PUGS y normativa de construcción.</small></div>
+<div class="proposal-row"><b>Urbanizaciones con cableado subterráneo y seguridad compartida</b><small>Ruta normativa: reforma o complementación de normas urbanísticas, de habilitación del suelo y de construcción.</small></div>
+</div>
+</article>
+
+<article class="area-card">
+<span class="tag">Área 2</span>
+<h3>Impuestos y actividad económica</h3>
+<span class="legal-badge badge-reform">Reforma de ordenanza vigente</span>
+<p>Revisar instrumentos tributarios municipales para facilitar formalización, innovación y actividades sostenibles dentro de las competencias legales del GAD.</p>
+<div class="proposal-list">
+<div class="proposal-row"><b>Incentivos y facilidades para innovación y sostenibilidad</b><small>Ruta normativa: evaluar una reforma de la ordenanza de patentes y otras normas tributarias aplicables, respetando límites y competencias establecidos por la ley nacional.</small></div>
+<div class="proposal-row"><b>Facilidades para nuevos emprendimientos</b><small>Ruta normativa: reforma de procedimientos y ordenanzas existentes; complementar con simplificación administrativa y servicios digitales.</small></div>
+</div>
+</article>
+
+<article class="area-card">
+<span class="tag">Área 3</span>
+<h3>Servicios municipales inteligentes</h3>
+<span class="legal-badge badge-new">Nueva + reformas específicas</span>
+<p>Modernizar servicios mediante tecnología, interoperabilidad y pilotos antes de una expansión cantonal.</p>
+<div class="proposal-list">
+<div class="proposal-row"><b>Smart Parking — “Azogues en un solo clic”</b><small>Ruta normativa: nueva ordenanza específica o reforma de la normativa de movilidad y estacionamiento, según la revisión jurídica del texto vigente.</small></div>
+<div class="proposal-row"><b>Pago inteligente en buses</b><small>Ruta normativa: reforma o actualización de la regulación municipal de movilidad y transporte, acompañada de normativa técnica.</small></div>
+<div class="proposal-row"><b>Azogues Circular</b><small>Ruta normativa: actualizar o reformar la ordenanza de gestión integral de residuos para fortalecer separación, recuperación, reciclaje y valorización.</small></div>
+<div class="proposal-row"><b>Azogues Solar</b><small>Ruta normativa: nueva ordenanza marco de eficiencia energética y energía solar municipal, o incorporación progresiva en normativa ambiental y constructiva existente.</small></div>
+</div>
+</article>
+
+<article class="area-card">
+<span class="tag">Área 4</span>
+<h3>Derechos y política social</h3>
+<span class="legal-badge badge-manage">Ordenanza marco + convenios</span>
+<p>Impulsar inclusión digital, formación y acceso a oportunidades sin crear normativa innecesaria cuando un convenio o resolución sea suficiente.</p>
+<div class="proposal-list">
+<div class="proposal-row"><b>Inclusión y capacitación digital</b><small>Ruta normativa: nueva ordenanza marco si se desea institucionalizar una política permanente; los pilotos pueden iniciar mediante programas y resoluciones administrativas.</small></div>
+<div class="proposal-row"><b>Preuniversitario Azogues</b><small>No requiere necesariamente una nueva ordenanza para iniciar. Puede ejecutarse mediante convenios con instituciones de educación superior; una ordenanza sería útil para darle permanencia, objetivos e indicadores.</small></div>
+</div>
+</article>
+
+<article class="area-card">
+<span class="tag">Área 5</span>
+<h3>Convivencia y espacio urbano</h3>
+<span class="legal-badge badge-reform">Reforma + nueva regulación puntual</span>
+<p>Fortalecer seguridad preventiva, convivencia, deporte y uso activo del espacio público con reglas claras y cooperación institucional.</p>
+<div class="proposal-list">
+<div class="proposal-row"><b>Ciudad Segura</b><small>Ruta normativa: reformar la normativa de convivencia y seguridad municipal o crear una regulación específica para cámaras, botones de pánico y alarmas comunitarias, cuidando protección de datos y competencias institucionales.</small></div>
+<div class="proposal-row"><b>Deporte, juventud y espacios activos</b><small>Ruta normativa: principalmente reforma de reglas de uso del espacio público y convenios con clubes, gimnasios, instituciones educativas, comunidades y sector privado.</small></div>
+<div class="proposal-row"><b>Turismo activo y religioso</b><small>Ruta normativa: preferentemente convenios, resoluciones y ajustes a normativa de uso del espacio público; nueva ordenanza solo si se requiere institucionalizar un programa permanente.</small></div>
+</div>
+</article>
+</div>
+
+<div class="legal-note"><strong>Nota:</strong> esta clasificación funciona como hoja de ruta legislativa. Antes de presentar cada proyecto debe revisarse el texto consolidado de las ordenanzas vigentes, las competencias municipales y su compatibilidad con la normativa nacional.</div>
 </div></section>
 
 <section id="propuestas" class="alt"><div class="wrap">

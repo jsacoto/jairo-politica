@@ -23,12 +23,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Configurar Pages
         uses: actions/configure-pages@v5
+
+      - name: Preparar sitio
+        run: |
+          mkdir -p _site
+          cp index.html _site/index.html
+          touch _site/.nojekyll
+
       - name: Subir sitio
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ./_site
+
       - name: Publicar
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
